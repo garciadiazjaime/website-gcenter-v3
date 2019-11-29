@@ -119,7 +119,7 @@
 
 	p {
 		margin: 0;
-		opacity: .6;
+		opacity: .7;
 	}
 
 	.fa-walking {
@@ -128,7 +128,8 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Reporte de Garitas. Línea de San Ysidro y Otay | Tijuana</title>
+	<meta name="description" content="GaritaCenter muestra el tiempo de espera para cruzar de Tijuana a San Ysidro y Otay.">
 </svelte:head>
 
 <section>

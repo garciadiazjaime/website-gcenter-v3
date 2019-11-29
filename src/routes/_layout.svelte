@@ -32,10 +32,8 @@
 	<div class="munchis">
 		<script data-ad-client="ca-pub-2643588035417760" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	</div>
-	<footer>
-		<p>El Reporte de Garitas es extraido de CBP</p>
-		<p>Reporte de Garitas para San Ysidro y Otay | Tijuana</p>
-		<p>Un proyecto de MINT</p>
-		<p>Diseño de Pool</p>
+	<footer>     
+		<p>GaritaCenter muestra el tiempo de espera para cruzar de Tijuana a San Ysidro. Datos proporcionados por la U.S. Customs and Border Protection, para vehículos particulares o cruce peatonal.</p>
+		<p>Un proyecto de MINT. Diseño de Pool.</p>
 	</footer>
 </main>

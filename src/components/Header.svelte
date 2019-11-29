@@ -10,7 +10,11 @@
 		margin: 0 12px;
 	}
 	small {
-		display: inline-block;
+		display: block;
+	}
+	img {
+		width: 41px;
+		height: 41px;
 	}
 </style>
 
