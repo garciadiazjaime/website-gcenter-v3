@@ -57,6 +57,70 @@
 	<!-- This contains the contents of the <svelte:head> component, if
 	     the current page has one -->
 	%sapper.head%
+
+	<script type="application/ld+json">
+		{
+			"@context" : "http://schema.org",
+			"@graph": [{
+				"@type": "Organization",
+				"@id": "https://www.garitacenter.com/#organization",
+				"name": "Garita Center",
+				"url": "https://www.garitacenter.com/",
+				"sameAs": ["https://www.facebook.com/garitacenter/"],
+				"logo": {
+					"@type": "ImageObject",
+					"@id": "https://www.garitacenter.com/#logo",
+					"url": "https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/383937_254192751306135_501132470_n.jpg?_nc_cat=100&_nc_ohc=JU0HE6AXPWMAQlUpkV48ZcTm11mQWfPZqc7xOPzuYN5JqZW1VoxrBf21w&_nc_ht=scontent-ort2-2.xx&oh=93a1b3664778312c490fe10aa570a425&oe=5E8237AC",
+					"width": 327,
+					"height": 327,
+					"caption": "Reporte de Garitas"
+				},
+				"image": {
+					"@id": "https://www.garitacenter.com/#logo"
+				}
+			}, {
+				"@type": "WebSite",
+				"@id": "https://www.garitacenter.com/#website",
+				"url": "https://www.garitacenter.com/",
+				"name": "Garita Center",
+				"description": "Reporte de Garitas",
+				"publisher": {
+					"@id": "https://www.garitacenter.com/#organization"
+				},
+				"potentialAction": {
+					"@type": "SearchAction",
+					"target": "https://www.garitacenter.com/?s={search_term_string}",
+					"query-input": "required name=search_term_string"
+				}
+			}, {
+				"@type": "ImageObject",
+				"@id": "https://www.garitacenter.com/#primaryimage",
+				"url": "  ",
+				"width": 1200,
+				"height": 630,
+				"caption": "Reporte de Garitas"
+			}, {
+				"@type": "WebPage",
+				"@id": "https://www.garitacenter.com/#webpage",
+				"url": "https://www.garitacenter.com",
+				"inLanguage": "es-MX",
+				"name": "Reporte de garitas en Tijuana, San Ysidro y Otay Mesa | Garita Center",
+				"isPartOf": {
+					"@id": "https://www.garitacenter.com/#website"
+				},
+				"about": {
+					"@id": "https://www.garitacenter.com/#organization"
+				},
+				"primaryImageOfPage": {
+					"@id": "https://www.garitacenter.com/#primaryimage"
+				},
+				"datePublished": "2019-12-01T04:38:56+00:00",
+				"dateModified": "2019-12-04T08:43:37+00:00",
+				"description": "GaritaCenter muestra el tiempo de espera para cruzar de Tijuana a San Ysidro y Otay."
+			}]
+		}
+	</script>
+
 </head>
 <body>
 	<!-- The application will be rendered inside this element,

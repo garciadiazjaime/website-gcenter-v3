@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "garitacenter",
+  "description": "Reporte de Garitas",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",

@@ -128,7 +128,7 @@
 </style>
 
 <svelte:head>
-	<title>Reporte de Garitas. Línea de San Ysidro y Otay | Tijuana</title>
+	<title>GaritaCenter - Reporte de Garitas. Línea de San Ysidro y Otay | Tijuana</title>
 	<meta name="description" content="GaritaCenter muestra el tiempo de espera para cruzar de Tijuana a San Ysidro y Otay.">
 </svelte:head>
 
