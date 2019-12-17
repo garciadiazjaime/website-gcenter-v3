@@ -26,14 +26,14 @@
 
 	export function printPort(value) {
 		if (value === 'otay') {
-			return 'Otay Mesa'
+			return 'Garita de Otay Mesa'
 		}
 
 		if (value === 'pedwest') {
-			return 'Chaparral'
+			return 'Garita El Chaparral'
 		}
 
-		return 'San Ysidro'
+		return 'Garita de San Ysidro'
 	}
 
 	export function printType(value) {
@@ -129,7 +129,7 @@
 
 <svelte:head>
 	<title>GaritaCenter - Reporte de Garitas. Línea de San Ysidro y Otay | Tijuana</title>
-	<meta name="description" content="GaritaCenter muestra el tiempo de espera para cruzar de Tijuana a San Ysidro y Otay.">
+	<meta name="description" content="Reporte de Garitas las 24 horas para cruzar la línea fronteriza de Tijuana - San Diego para el puerto de San Ysidro y Otay.">
 </svelte:head>
 
 <section>
