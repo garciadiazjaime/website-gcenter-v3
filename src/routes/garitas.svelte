@@ -128,8 +128,8 @@
 </style>
 
 <svelte:head>
-	<title>GaritaCenter - Reporte de Garitas. Línea de San Ysidro y Otay | Tijuana</title>
-	<meta name="description" content="Reporte de Garitas las 24 horas para cruzar la línea fronteriza de Tijuana - San Diego para el puerto de San Ysidro y Otay.">
+	<title>GaritaCenter - Reporte de Garitas. San Ysidro y Otay | Tijuana</title>
+	<meta name="description" content="Reporte de Garitas las 24 horas para cruzar la línea fronteriza de Tijuana - San Diego para el puerto de San Ysidro y Otay. Ready Lane y Sentri.">
 </svelte:head>
 
 <section>
