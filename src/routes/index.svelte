@@ -1,10 +1,10 @@
 <script>
 	import { onMount } from 'svelte';
+	import { getEmptyReport } from '../support/report'
 
-	let report
+	let report = getEmptyReport()
 
 	onMount(async () => {
-		
 		const res = await fetch(`https://api.garitacenter.com/report?city=tijuana`);
 		const reponse = await res.json()
 
@@ -53,6 +53,10 @@
 	export function printTime(value) {
 		if (!value || value === '0') {
 			return 'Sin espera'
+		}
+
+		if (value === '-1') {
+			return '...'
 		}
 
 		if (value < 60) {
