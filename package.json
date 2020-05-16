@@ -10,15 +10,16 @@
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run",
-    "docker:build": "npm run build && docker build -t garciadiazjaime/website-gcenter-v3 . && npm run docker:push && echo 'docker pull garciadiazjaime/website-gcenter-v3'",
-    "docker:run": "docker run -d -p 49300:3000 --name gcenter garciadiazjaime/website-gcenter-v3",
-    "docker:push": "docker push garciadiazjaime/website-gcenter-v3",
-    "docker:pull": "docker pull garciadiazjaime/website-gcenter-v3"
+    "google:clean": "gsutil -m rm -r gs://www.garitacenter.com/*",
+    "google:upload": "gsutil -m cp -r ./__sapper__/export/* gs://www.garitacenter.com",
+    "deploy": "npm run google:clean && npm run google:upload"
   },
   "dependencies": {
     "compression": "^1.7.1",
+    "d3": "^5.15.0",
     "polka": "next",
-    "sirv": "^0.4.0"
+    "sirv": "^0.4.0",
+    "twitter": "^1.7.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
