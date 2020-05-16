@@ -19,6 +19,8 @@
 </style>
 
 <header>
-	<img src="/garita-center-logo.jpg" alt="GaritaCenter - Reporte de Garitas" />
+	<a href="/">
+		<img src="/garita-center-logo.jpg" alt="GaritaCenter - Reporte de Garitas" />
+	</a>
 	<h1>Reporte de Garitas  <small>Tijuana - San Diego</small></h1>
 </header>

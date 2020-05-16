@@ -20,6 +20,10 @@
 		margin: 0;
 		padding: 0;
 	}
+	footer a {
+		text-decoration: none;
+	}
+
 	ul {
 		list-style-type: none;
 		padding-left: 0;
@@ -56,7 +60,7 @@
 		</li>
 	</ul>
 	<footer>
-		<p>GaritaCenter muestra el tiempo de espera para cruzar de Tijuana a San Ysidro. Datos proporcionados por la U.S. Customs and Border Protection, para vehículos particulares o cruce peatonal.</p>
+		<p><a href="garitas">GaritaCenter</a> muestra el <a href="reporte">reporte</a> de garitas para cruzar la línea de Tijuana a San Ysidro. Datos extraidos de la la US-CBP, para vehículos particulares o cruce peatonal.</p>
 		<p>Un proyecto de MINT. Diseño de Pool.</p>
 	</footer>
 </main>
