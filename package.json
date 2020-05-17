@@ -10,7 +10,7 @@
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run",
-    "version": "git rev-parse HEAD > static/version",
+    "version": "git rev-parse HEAD > static/version.txt",
     "google:clean": "gsutil -m rm -r gs://www.garitacenter.com/*",
     "google:upload": "gsutil -m cp -r ./__sapper__/export/* gs://www.garitacenter.com",
     "deploy": "npm run version && npm run google:clean && npm run google:upload"
