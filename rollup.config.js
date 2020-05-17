@@ -14,6 +14,10 @@ const legacy = !!process.env.SAPPER_LEGACY_BUILD;
 const onwarn = (warning, onwarn) => (warning.code === 'CIRCULAR_DEPENDENCY' && /[/\\]@sapper[/\\]/.test(warning.message)) || onwarn(warning);
 const dedupe = importee => importee === 'svelte' || importee.startsWith('svelte/');
 
+const revision = require('child_process')
+  .execSync('git rev-parse HEAD')
+	.toString().trim()
+
 export default {
 	client: {
 		input: config.client.input(),
@@ -21,7 +25,8 @@ export default {
 		plugins: [
 			replace({
 				'process.browser': true,
-				'process.env.NODE_ENV': JSON.stringify(mode)
+				'process.env.NODE_ENV': JSON.stringify(mode),
+				'BUILD_VERSION': revision
 			}),
 			svelte({
 				dev,

@@ -15,6 +15,7 @@
 		]
 
 		report = reportSorted
+		window._BUILD_VERSION = 'BUILD_VERSION'
 	});
 
 	function timeConvert(num){

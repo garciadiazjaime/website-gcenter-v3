@@ -60,7 +60,7 @@
 		</li>
 	</ul>
 	<footer>
-		<p><a href="garitas">GaritaCenter</a> muestra el <a href="reporte">reporte</a> de garitas para cruzar la línea de Tijuana a San Ysidro. Datos extraidos de la la US-CBP, para vehículos particulares o cruce peatonal.</p>
+		<p><a href="garitas">GaritaCenter</a> muestra el <a href="reporte">reporte</a> de garitas para cruzar la línea de Tijuana a San Ysidro. Datos extraidos de la la U.S. CBP, para vehículos particulares o cruce peatonal.</p>
 		<p>Un proyecto de MINT. Diseño de Pool.</p>
 	</footer>
 </main>
