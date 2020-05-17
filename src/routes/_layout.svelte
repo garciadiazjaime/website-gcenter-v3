@@ -22,9 +22,10 @@
 	}
 	footer a {
 		text-decoration: none;
+		color: #EEE;
 	}
 	footer a:visited {
-		color: white;
+		color: #EEE;
 	}
 
 	ul {
