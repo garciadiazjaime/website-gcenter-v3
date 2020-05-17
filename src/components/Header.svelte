@@ -12,10 +12,6 @@
 	small {
 		display: block;
 	}
-	img {
-		width: 41px;
-		height: 41px;
-	}
 </style>
 
 <header>

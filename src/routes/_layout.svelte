@@ -23,6 +23,9 @@
 	footer a {
 		text-decoration: none;
 	}
+	footer a:visited {
+		color: white;
+	}
 
 	ul {
 		list-style-type: none;
@@ -38,9 +41,6 @@
 <main>
 	<Nav />
 	<slot></slot>
-	<div>
-		<script data-ad-client="ca-pub-2643588035417760" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	</div>
 	<ul className="social-links">
 		<li>
 			<a href="https://www.facebook.com/garitacenter/" title="Facebook GaritaCenter" rel="nofollow">
