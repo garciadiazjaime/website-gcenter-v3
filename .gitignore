@@ -2,4 +2,3 @@ __sapper__
 node_modules
 *.DS_Store
 npm-debug.log
-static/version.txt
