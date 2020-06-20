@@ -12,6 +12,9 @@
 	small {
 		display: block;
 	}
+	img {
+		width: 41px;
+	}
 </style>
 
 <header>
