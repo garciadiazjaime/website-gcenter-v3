@@ -69,7 +69,7 @@
 
 	export function printLanes(value) {
 		const s = value > 1 ? 's' : ''
-		return `${value} Línea${s} Abierta${s}`
+		return `${value} Linea${s} Abierta${s}`
 	}
 </script>
 
@@ -136,7 +136,7 @@
 
 <svelte:head>
 	<title>GaritaCenter - Reporte de Garitas. San Ysidro y Otay | Tijuana</title>
-	<meta name="description" content="Reporte de Garitas las 24 horas para cruzar la línea fronteriza de Tijuana - San Diego para el puerto de San Ysidro y Otay. Ready Lane y Sentri.">
+	<meta name="description" content="Reporte de Garitas las 24 horas para cruzar la linea fronteriza de Tijuana - San Diego para el puerto de San Ysidro y Otay. Ready Lane y Sentri.">
 </svelte:head>
 
 <section>

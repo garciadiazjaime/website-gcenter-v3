@@ -9,7 +9,7 @@
 
 <svelte:head>
 	<title>GaritaCenter - Reporte de las últimas 24 horas</title>
-	<meta name="description" content="Reporte de las últimas 24 horas para cruzar la línea fronteriza de Tijuana - San Diego para el puerto de San Ysidro.">
+	<meta name="description" content="Reporte de las últimas 24 horas para cruzar la linea fronteriza de Tijuana - San Diego para el puerto de San Ysidro.">
 </svelte:head>
 
 <section>
