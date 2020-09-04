@@ -4,9 +4,8 @@
 
 	let report = getEmptyReport()
 
-	onMount(async () => {
-		const res = await fetch(`https://api.garitacenter.com/report?city=tijuana`);
-		const reponse = await res.json()
+	function getReport(data) {
+		const reponse = data
 
 		const reportSorted = [
 			{ port: 'sanYsidro', data: reponse.report.sanYsidro },
@@ -15,6 +14,15 @@
 		]
 
 		report = reportSorted
+	}
+
+	onMount(async () => {
+		if (!window.GC_REPORT) {
+			window.ps.subscribe('report', getReport)
+		} else {
+			getReport(window.GC_REPORT)
+		}
+
 		window._BUILD_VERSION = 'BUILD_VERSION'
 	});
 

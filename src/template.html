@@ -14,7 +14,7 @@
 	<link rel="preconnect" href="https://cm.g.doubleclick.net">
 	<link rel="dns-prefetch" href="https://partner.googleadservices.com">
 	<link rel="dns-prefetch" href="https://tpc.googlesyndication.com">
-	<link rel="modulepreload" href="/client/index.9616eb8f.js">
+	<link rel="modulepreload" href="/client/index.23891e92.js">
 	%sapper.base%
 
 	<style>
@@ -80,6 +80,41 @@
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
 		gtag('config', 'UA-26633604-1');
+
+		function pubSub() {
+			const subscribers = {}
+
+			function publish(eventName, data) {
+				if (!Array.isArray(subscribers[eventName])) {
+					return
+				}
+				subscribers[eventName].forEach((callback) => {
+					callback(data)
+				})
+			}
+
+			function subscribe(eventName, callback) {
+				if (!Array.isArray(subscribers[eventName])) {
+					subscribers[eventName] = []
+				}
+				subscribers[eventName].push(callback)
+			}
+
+			return {
+				publish,
+				subscribe,
+			}
+		}
+
+		window.ps = pubSub()
+
+		async function main() {
+			const res = await fetch(`https://api.garitacenter.com/report?city=tijuana`);
+			window.GC_REPORT = await res.json()
+			window.ps.publish('report', window.GC_REPORT)
+		}
+
+		main()
 	</script>
 </head>
 <body>
