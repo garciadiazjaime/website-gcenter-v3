@@ -140,6 +140,11 @@
 	.fa-walking {
 		width: 24px;
 	}
+
+	.msg {
+		padding: 8px 0;
+		opacity: .8;
+	}
 </style>
 
 <svelte:head>
@@ -148,6 +153,9 @@
 </svelte:head>
 
 <section>
+	<div class="msg">
+		La frontera está cerrada para viajes no esenciales hasta Septiembre 21, 2020. <a href="./faq">FAQ</a>
+	</div>
 	{#if report }
 		{#each report as port}
 			<h2>{printPort(port.port)} <small>24 hrs</small></h2>
