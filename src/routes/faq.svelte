@@ -11,8 +11,7 @@
 </style>
 
 <svelte:head>
-	<title>Garita Center - Reporte de Garitas. San Ysidro y Otay | Tijuana</title>
-	<meta name="description" content="Reporte de Garitas las 24 horas para cruzar la linea fronteriza de Tijuana - San Diego para el puerto de San Ysidro y Otay. Ready Lane y Sentri.">
+	<title>Garita Center - Preguntas Frecuentes. San Ysidro y Otay | Tijuana</title>
 </svelte:head>
 
 <section>
