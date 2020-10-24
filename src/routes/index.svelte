@@ -154,7 +154,7 @@
 
 <section>
 	<div class="msg">
-		La frontera está cerrada para viajes no esenciales hasta Octubre 21, 2020. <a href="./faq">FAQ</a>
+		La frontera está cerrada para viajes no esenciales hasta Noviembre 21, 2020. <a href="./faq">FAQ</a>
 	</div>
 	{#if report }
 		{#each report as port}
