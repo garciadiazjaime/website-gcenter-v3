@@ -12,6 +12,20 @@
 
 <svelte:head>
 	<title>Garita Center - Preguntas Frecuentes. San Ysidro y Otay | Tijuana</title>
+	<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "¿Está cerrada la frontera en Tijuana?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La frontera seguirá cerrada para viajes no esenciales (principalmente turistas) hasta Noviembre 21, 2020."
+        }
+      }]
+    }
+    </script>
 </svelte:head>
 
 <section>
