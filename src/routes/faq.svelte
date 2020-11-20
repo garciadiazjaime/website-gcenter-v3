@@ -21,7 +21,7 @@
         "name": "¿Está cerrada la frontera en Tijuana?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "La frontera seguirá cerrada para viajes no esenciales (principalmente turistas) hasta Noviembre 21, 2020."
+          "text": "La frontera seguirá cerrada para viajes no esenciales (principalmente turistas) hasta Diciembre 21, 2020."
         }
       }]
     }
@@ -33,14 +33,14 @@
 	
 	<h2>¿Está cerrada la frontera en Tijuana?</h2>
 	<p>
-		La frontera seguirá cerrada para viajes no esenciales (principalmente turistas) hasta Noviembre 21, 2020.
+		La frontera seguirá cerrada para viajes no esenciales (principalmente turistas) hasta Diciembre 21, 2020.
 		<br /><br />
 		La fecha se ha ido extendiendo mes tras mes, así que seguramente se seguirá posponiendo.
 		<br />
 		<br />
 		Fuente: 
 		<br />
-		<a href="https://mx.usembassy.gov/travel-restrictions-fact-sheet/" target="_blank" rel="nofollow">CBP</a>
+		<a href="https://publish.twitter.com/?query=https%3A%2F%2Ftwitter.com%2FSRE_mx%2Fstatus%2F1329209647237042177&widget=Tweet" target="_blank" rel="nofollow">SRE</a>
 	</p>
 
 	<h2>¿Puedo cruzar si mi pasaporte estadounidense está vencido?</h2>
