@@ -37,6 +37,10 @@
  li {
 		margin-right: 10px;
 	}
+
+	.sponsored {
+		color: #EEE;
+	}
 </style>
 
 <main>
@@ -60,6 +64,14 @@
 			</a>
 		</li>
 	</ul>
+	<div class="sponsored">
+		<p>
+			Reporte patrocinado por:
+			<br />
+			<b>Portable Car Vacuum Cleaner</b>
+		</p>
+		<a target="_blank"  href="https://www.amazon.com/gp/product/B08FCGW4TR/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B08FCGW4TR&linkCode=as2&tag=mintitmedia-20&linkId=4fd29d97e600fc6daa84c60f333c57e0"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B08FCGW4TR&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=mintitmedia-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=mintitmedia-20&l=am2&o=1&a=B08FCGW4TR" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+	</div>
 	<footer>
 		<p><a href="garitas">Garita Center</a> muestra el <a href="reporte">reporte</a> de garitas para cruzar la linea de Tijuana a San Ysidro. Datos extraidos de la la U.S. CBP, para vehículos particulares o cruce peatonal.</p>
 		<p>Un proyecto de MINT. Diseño de Pool.</p>
