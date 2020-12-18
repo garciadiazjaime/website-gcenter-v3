@@ -148,13 +148,13 @@
 </style>
 
 <svelte:head>
-	<title>Garita Center - Reporte de Garitas. San Ysidro y Otay | Tijuana</title>
-	<meta name="description" content="Reporte de Garitas las 24 horas para cruzar la linea fronteriza de Tijuana - San Diego para el puerto de San Ysidro y Otay. Ready Lane y Sentri.">
+	<title>Garita Center. Reporte de Garitas. Linea San Ysidro y Otay | Tijuana</title>
+	<meta name="description" content="Reporte de Garitas. Conoce como esta la linea para cruzar Tijuana - San Ysidro / Otay">
 </svelte:head>
 
 <section>
 	<div class="msg">
-		La Garita está cerrada para viajes no esenciales hasta Enero 21, 2021. <a href="./faq">FAQ</a>
+		Las Garitas están cerrada para viajes no esenciales hasta Enero 21, 2021. <a href="./faq">FAQ</a>
 	</div>
 	{#if report }
 		{#each report as port}

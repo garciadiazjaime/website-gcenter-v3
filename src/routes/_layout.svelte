@@ -68,7 +68,7 @@
 		<p>
 			Reporte patrocinado por:
 		</p>
-		<a target="_blank" rel="nofollow" href="https://www.amazon.com/gp/product/B01LWDCSIZ/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01LWDCSIZ&linkCode=as2&tag=mintitmedia-20&linkId=a0b9aa1867b6ec542d66e36ee0aa3d96"><img alt="" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B01LWDCSIZ&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=mintitmedia-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=mintitmedia-20&l=am2&o=1&a=B01LWDCSIZ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+		<a target="_blank" rel="nofollow noreferrer" href="https://www.amazon.com/gp/product/B01LWDCSIZ/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01LWDCSIZ&linkCode=as2&tag=mintitmedia-20&linkId=a0b9aa1867b6ec542d66e36ee0aa3d96"><img width="110" height="110" alt="" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B01LWDCSIZ&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=mintitmedia-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=mintitmedia-20&l=am2&o=1&a=B01LWDCSIZ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 	</div>
 	<footer>
 		<p><a href="garitas">Garita Center</a> muestra el <a href="reporte">reporte</a> de garitas para cruzar la linea de Tijuana a San Ysidro. Datos extraidos de la la U.S. CBP, para vehículos particulares o cruce peatonal.</p>
