@@ -23,6 +23,13 @@
           "@type": "Answer",
           "text": "La frontera seguirá cerrada para viajes no esenciales (principalmente turistas) hasta Enero 21, 2021."
         }
+      }, {
+        "@type": "Question",
+        "name": "¿Cómo está la línea",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Es difícil saber con precisión, pero a manera general se pueden mencionar los siguientes tiempos: En Carro Con Sentry por lo menos 30 minutos. Sin Sentry por lo menos 1 hora."
+        }
       }]
     }
     </script>
@@ -42,6 +49,21 @@
 		<br />
 		<a href="https://twitter.com/dhs_wolf/status/1337427031735345153?s=21" target="_blank" rel="nofollow">DHS</a>
 	</p>
+
+	<h2>¿Cómo está la línea</h2>
+	<p>
+		Es difícil saber con precisión, pero a manera general se pueden mencionar los siguientes tiempos:
+	</p>
+	<h3>En Carro.</h3>
+	<ul>
+		<li>Con Sentry por lo menos 30 minutos.</li>
+		<li>Sin Sentry por lo menos 1 hora.</li>
+	</ul>
+	<h3>Caminado</h3>
+	<ul>
+		<li>Con sentry por lo menos 10 minutos.</li>
+		<li>Sin sentry por lo menos 30 minutos.</li>
+	</ul>
 
 	<h2>¿Puedo cruzar si mi pasaporte estadounidense está vencido?</h2>
 	<p>
