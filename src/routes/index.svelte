@@ -154,7 +154,7 @@
 
 <section>
 	<div class="msg">
-		La Garita está cerrada para viajes no esenciales hasta Diciembre 21, 2020. <a href="./faq">FAQ</a>
+		La Garita está cerrada para viajes no esenciales hasta Enero 21, 2021. <a href="./faq">FAQ</a>
 	</div>
 	{#if report }
 		{#each report as port}
