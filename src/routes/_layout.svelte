@@ -38,8 +38,9 @@
 		margin-right: 10px;
 	}
 
-	.sponsored {
+	.sponsored a{
 		color: #EEE;
+		font-size: 14px;
 	}
 </style>
 
