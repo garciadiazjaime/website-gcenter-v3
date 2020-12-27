@@ -66,14 +66,13 @@
 	</ul>
 	<div class="sponsored">
 		<p>
-			Reporte patrocinado por:
+			Reporte de Garitas patrocinado por:
 		</p>
-		<a target="_blank" rel="nofollow noreferrer" href="https://www.amazon.com/gp/product/B002G9UDYG/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B002G9UDYG&linkCode=as2&tag=mintitmedia-20&linkId=54842b48e3577e9e94fb0ffad6ab7495"><img width="110" height="110" alt="" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B002G9UDYG&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=mintitmedia-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=mintitmedia-20&l=am2&o=1&a=B002G9UDYG" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+		<p><a href="https://www.feedmetj.com/">¿Que comer en Tijuana?</p>
 	</div>
 	<footer>
 		<p><strong>Garita Center</strong> muestra el <a href="/reporte/">reporte</a> de garitas para cruzar la <strong>linea de Tijuana a San Ysidro</strong>. Datos extraidos de CBP, para vehículos particulares o cruce peatonal.</p>
 		<p>Un proyecto de MINT. Diseño de Pool.</p>
 		<br />
-		<p><a href="https://www.feedmetj.com/">¿Qué comer en Tijuana?</p>
 	</footer>
 </main>
