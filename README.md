@@ -1,3 +1,3 @@
 ## Demo
 
-[GaritaCenter](https://www.garitacenter.com/)
+[Reporte de Garitas Tijuana](https://www.garitacenter.com/)
