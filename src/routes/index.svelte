@@ -37,14 +37,14 @@
 
 	export function printPort(value) {
 		if (value === 'otay') {
-			return 'Garita de Otay Mesa'
+			return 'Garitas - Linea de Otay Mesa'
 		}
 
 		if (value === 'pedwest') {
 			return 'Garita El Chaparral'
 		}
 
-		return 'Garita de San Ysidro'
+		return 'Garitas - Linea de San Ysidro'
 	}
 
 	export function printType(value) {

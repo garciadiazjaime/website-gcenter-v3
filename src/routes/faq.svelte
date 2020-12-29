@@ -18,14 +18,14 @@
       "@type": "FAQPage",
       "mainEntity": [{
         "@type": "Question",
-        "name": "¿Está cerrada la frontera en Tijuana?",
+        "name": "¿Están cerradas las Garitas de Tijuana?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "La frontera seguirá cerrada para viajes no esenciales (principalmente turistas) hasta Enero 21, 2021."
+          "text": "Las Garitas de Tijuana seguirán cerradas para viajes no esenciales (principalmente turistas) hasta Enero 21, 2021."
         }
       }, {
         "@type": "Question",
-        "name": "¿Cómo está la línea",
+        "name": "¿Como esta la linea?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Es difícil saber con precisión, pero a manera general se pueden mencionar los siguientes tiempos: En Carro Con Sentry por lo menos 30 minutos. Sin Sentry por lo menos 1 hora."
@@ -38,9 +38,9 @@
 <section>
 	<h1>Preguntas Frecuentes</h1>
 	
-	<h2>¿Está cerrada la frontera en Tijuana?</h2>
+	<h2>¿Están cerradas las Garitas de Tijuana?</h2>
 	<p>
-		La frontera seguirá cerrada para viajes no esenciales (principalmente turistas) hasta Enero 21, 2021.
+		Las Garitas de Tijuana seguirán cerradas para viajes no esenciales (principalmente turistas) hasta Enero 21, 2021.
 		<br /><br />
 		La fecha se ha ido extendiendo mes tras mes, así que seguramente se seguirá posponiendo.
 		<br />
@@ -50,7 +50,7 @@
 		<a href="https://twitter.com/dhs_wolf/status/1337427031735345153?s=21" target="_blank" rel="nofollow">DHS</a>
 	</p>
 
-	<h2>¿Cómo está la línea</h2>
+	<h2>¿Como esta la linea?</h2>
 	<p>
 		Es difícil saber con precisión, pero a manera general se pueden mencionar los siguientes tiempos:
 	</p>

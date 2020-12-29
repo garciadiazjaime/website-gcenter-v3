@@ -38,6 +38,15 @@
 		margin-right: 10px;
 	}
 
+	.sponsored{
+		color: #EEE;
+		margin: 12px 0;
+	}
+
+	.sponsored h4{
+		margin: 0;
+	}
+
 	.sponsored a{
 		color: #EEE;
 		font-size: 14px;
@@ -66,10 +75,8 @@
 		</li>
 	</ul>
 	<div class="sponsored">
-		<p>
-			Reporte de Garitas patrocinado por:
-		</p>
-		<p><a href="https://www.feedmetj.com/">¿Que comer en Tijuana?</p>
+		<h4>Reporte de Garitas patrocinado por</h4>
+		<a href="https://www.feedmetj.com/">¿Que comer en Tijuana?</a>
 	</div>
 	<footer>
 		<p><strong>Garita Center</strong> muestra el <a href="/reporte/">reporte</a> de <a href="/garitas">garitas</a> para cruzar la <strong>linea de Tijuana a San Ysidro</strong>. Datos extraidos de CBP, para vehículos particulares o cruce peatonal.</p>
