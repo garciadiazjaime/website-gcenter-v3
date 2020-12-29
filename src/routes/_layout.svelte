@@ -72,7 +72,7 @@
 		<p><a href="https://www.feedmetj.com/">¿Que comer en Tijuana?</p>
 	</div>
 	<footer>
-		<p><strong>Garita Center</strong> muestra el <a href="/reporte/">reporte</a> de garitas para cruzar la <strong>linea de Tijuana a San Ysidro</strong>. Datos extraidos de CBP, para vehículos particulares o cruce peatonal.</p>
+		<p><strong>Garita Center</strong> muestra el <a href="/reporte/">reporte</a> de <a href="/garitas">garitas</a> para cruzar la <strong>linea de Tijuana a San Ysidro</strong>. Datos extraidos de CBP, para vehículos particulares o cruce peatonal.</p>
 		<p>Un proyecto de MINT. Diseño de Pool.</p>
 		<br />
 	</footer>
