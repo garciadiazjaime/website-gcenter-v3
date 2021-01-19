@@ -154,7 +154,7 @@
 
 <section>
 	<div class="msg">
-		Las Garitas están cerrada para viajes no esenciales hasta Enero 21, 2021. <a href="./faq">FAQ</a>
+		Las Garitas están cerrada para viajes no esenciales hasta Febrero 21, 2021. <a href="./faq">FAQ</a>
 	</div>
 	{#if report }
 		{#each report as port}
