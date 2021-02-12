@@ -50,6 +50,17 @@
 		<a href="https://twitter.com/dhs_wolf/status/1337427031735345153?s=21" target="_blank" rel="nofollow">DHS</a>
 	</p>
 
+	<h2>¿Necesito prueba de Covid para cruzar a Estados Unidos?</h2>
+	<p>
+		La prueba de Covid se pide para aquellas personas que entrán a Estados Unidos por Aire, aquellos que cruzan por tierra,
+		a través de las diferentes garitas que se encuentran en la frontera, ya sea por carro o a pie, de momento no es requisito mostrar prueba de Covid.
+		<br />
+		<br />
+		Fuente:
+		<br />
+		<a href="https://www.cdc.gov/coronavirus/2019-ncov/travelers/testing-international-air-travelers.html" target="_blank" rel="nofollow">CDC</a>
+	</p>
+
 	<h2>¿Como esta la linea?</h2>
 	<p>
 		Es difícil saber con precisión, pero a manera general se pueden mencionar los siguientes tiempos:
