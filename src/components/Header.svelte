@@ -21,7 +21,7 @@
 
 <header>
 	<a href="/">
-		<img src="/garita-center-logo.jpg" alt="Garita Center - Reporte de Garitas" />
+		<img src="/garita-center-logo-2.jpg" alt="Garita Center - Reporte de Garitas" width="41px" height="41px" />
 	</a>
 	<div>
 		<h1>Reporte de Garitas</h1>

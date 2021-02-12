@@ -43,13 +43,15 @@
 		margin: 12px 0;
 	}
 
-	.sponsored h4{
-		margin: 0;
+	.sponsored strong{
+		display: block;
+		font-weight: normal;
 	}
 
 	.sponsored a{
 		color: #EEE;
 		font-size: 14px;
+		text-decoration: none;
 	}
 </style>
 
@@ -75,7 +77,7 @@
 		</li>
 	</ul>
 	<div class="sponsored">
-		<h4>Reporte de Garitas patrocinado por</h4>
+		<strong>Reporte de Garitas patrocinado por</strong>
 		<a href="https://www.feedmetj.com/">¿Que comer en Tijuana?</a>
 	</div>
 	<footer>
