@@ -154,7 +154,7 @@
 
 <section>
 	<div class="msg">
-		Las Garitas están cerrada para viajes no esenciales hasta Marzo 21, 2021. <br />La prueba de Covid solo es necesaria por aire. <a href="./faq" title="FAQ garitas">Más información</a>
+		Las Garitas están cerrada para viajes no esenciales hasta Abril 21, 2021. <br />La prueba de Covid solo es necesaria por aire. <a href="./faq" title="FAQ garitas">Más información</a>
 	</div>
 	{#if report }
 		{#each report as port}

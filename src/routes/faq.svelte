@@ -21,7 +21,7 @@
         "name": "¿Están cerradas las Garitas de Tijuana?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Las Garitas de Tijuana seguirán cerradas para viajes no esenciales (principalmente turistas) hasta Marzo 21, 2021."
+          "text": "Las Garitas de Tijuana seguirán cerradas para viajes no esenciales (principalmente turistas) hasta Abril 21, 2021."
         }
       }, {
         "@type": "Question",
@@ -40,14 +40,14 @@
 	
 	<h2>¿Están cerradas las Garitas de Tijuana?</h2>
 	<p>
-		Las Garitas de Tijuana seguirán cerradas para viajes no esenciales (principalmente turistas) hasta Marzo 21, 2021.
+		Las Garitas de Tijuana seguirán cerradas para viajes no esenciales (principalmente turistas) hasta Abril 21, 2021.
 		<br /><br />
 		La fecha se ha ido extendiendo mes tras mes, así que seguramente se seguirá posponiendo.
 		<br />
 		<br />
 		Fuente: 
 		<br />
-		<a href="https://twitter.com/DHSgov/status/1362897955422928900" target="_blank" rel="nofollow">DHS</a>
+		<a href="https://www.federalregister.gov/documents/2021/03/19/2021-05877/notification-of-temporary-travel-restrictions-applicable-to-land-ports-of-entry-and-ferries-service" target="_blank" rel="nofollow">USCBP</a>
 	</p>
 
 	<h2>¿Necesito prueba de Covid para cruzar a Estados Unidos?</h2>
