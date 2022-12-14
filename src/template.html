@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1.0'>
+	<meta name='theme-color' content='#333333'>
+
+	<link rel="preconnect" href="https://api.garitacenter.com">
+	<link rel="preconnect" href="https://www.google.com">
+	<link rel="dns-prefetch" href="https://www.google-analytics.com">
+	<link rel="preconnect" href="https://www.gstatic.com">
+	<link rel="preconnect" href="https://www.googletagservices.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://cm.g.doubleclick.net">
+	<link rel="dns-prefetch" href="https://partner.googleadservices.com">
+	<link rel="dns-prefetch" href="https://tpc.googlesyndication.com">
+	%sapper.base%
+
+	<style>
+		body {
+			margin: 0;
+			font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+			color: #333;
+		}
+
+		h1, h2, h3, h4, h5, h6 {
+			font-weight: 400;
+			line-height: 1.2;
+		}
+
+		@media (min-width: 400px) {
+			body {
+				font-size: 16px;
+			}
+		}
+	</style>
+	<link rel='manifest' href='manifest.json'>
+	<link rel='icon' type='image/webp' href='favicon.webp'>
+
+	<!-- Sapper generates a <style> tag containing critical CSS
+	     for the current page. CSS for the rest of the app is
+	     lazily loaded when it precaches secondary pages -->
+	%sapper.styles%
+
+	<!-- This contains the contents of the <svelte:head> component, if
+	     the current page has one -->
+	%sapper.head%
+
+	<script type="application/ld+json">
+		{
+			"@context" : "http://schema.org",
+			"@graph": [{
+				"@type": "Organization",
+				"@id": "https://www.garitacenter.com/#organization",
+				"name": "GaritaCenter",
+				"alternateName": "Reporte de Gartias",
+				"url": "https://www.garitacenter.com/",
+				"logo": "https://www.garitacenter.com/garita-center-logo.webp",
+				"sameAs": [
+					"https://www.facebook.com/garitacenter/",
+					"https://twitter.com/garita_center"
+				]
+			}, {
+				"@type": "WebSite",
+				"name": "GaritaCenter",
+				"url": "https://www.garitacenter.com/",
+				"description": "Las Garitas de Tijuana se encuentran abiertas. Conoce el Reporte de Garitas y entérate como esta la linea para cruzar por Tijuana - San Ysidro y Otay.",
+				"inLanguage": "es-MX",
+				"datePublished": "2011-10-21T04:38:56+00:00",
+				"dateModified": "2022-02-03T08:43:37+00:00"
+			}]
+		}
+	</script>
+	<script data-ad-client="ca-pub-2643588035417760" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26633604-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-26633604-1');
+	</script>
+</head>
+<body>
+	<!-- The application will be rendered inside this element,
+	     because `src/client.js` references it -->
+	<div id='sapper'>%sapper.html%</div>
+
+	<!-- Sapper creates a <script> tag containing `src/client.js`
+	     and anything else it needs to hydrate the app and
+	     initialise the router -->
+	%sapper.scripts%
+</body>
+</html>

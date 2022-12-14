@@ -1,0 +1,9 @@
+__sapper__
+node_modules
+*.DS_Store
+npm-debug.log
+secrets.txt
+
+# Local Netlify folder
+.netlify
+.env
