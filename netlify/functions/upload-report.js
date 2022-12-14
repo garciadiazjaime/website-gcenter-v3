@@ -1,5 +1,6 @@
 const backblazebService = require("../support/backblaze-service");
 const { sendEmail } = require("../support/sendgrid-service");
+const mintService = require("../support/mint-service");
 const { handler: getReport } = require("./report");
 
 exports.handler = async function (event, context) {
@@ -12,7 +13,8 @@ exports.handler = async function (event, context) {
   try {
     const report = JSON.parse(response.body);
     await backblazebService.uploadReport(report);
-  } catch(error) {
+    await mintService.uploadReport(report);
+  } catch (error) {
     await sendEmail("GC Report Upload Error");
   }
 

@@ -98,9 +98,7 @@ export function printLanes(value) {
 }
 
 export async function getReportFor(city) {
-  const response = await fetch(
-    "https://f004.backblazeb2.com/file/mint-assets/gc_report.json"
-  );
+  const response = await fetch("https://api.garitacenter.com/gc_report.json");
   const data = await response.json();
 
   const { report } = data.find((item) => item.city === city) || {};
@@ -133,9 +131,7 @@ function getMinutesSinceLastReport(created) {
 }
 
 export async function notifyReport() {
-  const response = await fetch(
-    "https://f004.backblazeb2.com/file/mint-assets/gc_report.json"
-  );
+  const response = await fetch("https://api.garitacenter.com/gc_report.json");
   const data = await response.json();
 
   const { created } = data.find((item) => item.city === "tijuana") || {};
