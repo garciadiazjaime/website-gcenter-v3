@@ -97,12 +97,27 @@ export function printLanes(value) {
   return `${value} Línea${s}`;
 }
 
-export async function getReportFor(city) {
+async function getReport() {
+  const localReport = localStorage.getItem("@gc_report");
+  if (localReport) {
+    const report = JSON.parse(localReport);
+    const { created } = report.find((item) => item.city === "tijuana") || {};
+
+    const minutes = getMinutesSinceLastReport(created);
+
+    if (minutes < 10) {
+      return report;
+    }
+  }
+
   const response = await fetch("https://api.garitacenter.com/gc_report.json");
-  const data = await response.json();
+  const report = await response.json();
+  localStorage.setItem("@gc_report", JSON.stringify(report));
+  return report;
+}
 
-  localStorage.setItem("@gc_report", JSON.stringify(data));
-
+export async function getReportFor(city) {
+  const data = await getReport();
   const { report } = data.find((item) => item.city === city) || {};
 
   if (city === "tijuana") {
@@ -133,8 +148,12 @@ function getMinutesSinceLastReport(created) {
 }
 
 export async function notifyReport() {
-  const response = localStorage.getItem('@gc_report')
-  const data = JSON.parse(response)
+  const response = localStorage.getItem("@gc_report");
+  if (!response) {
+    return
+  }
+
+  const data = JSON.parse(response);
 
   const { created } = data.find((item) => item.city === "tijuana") || {};
 
