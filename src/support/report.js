@@ -101,6 +101,8 @@ export async function getReportFor(city) {
   const response = await fetch("https://api.garitacenter.com/gc_report.json");
   const data = await response.json();
 
+  localStorage.setItem("@gc_report", JSON.stringify(data));
+
   const { report } = data.find((item) => item.city === city) || {};
 
   if (city === "tijuana") {
@@ -131,8 +133,8 @@ function getMinutesSinceLastReport(created) {
 }
 
 export async function notifyReport() {
-  const response = await fetch("https://api.garitacenter.com/gc_report.json");
-  const data = await response.json();
+  const response = localStorage.getItem('@gc_report')
+  const data = JSON.parse(response)
 
   const { created } = data.find((item) => item.city === "tijuana") || {};
 
