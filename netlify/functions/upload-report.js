@@ -5,6 +5,7 @@ const { handler: getReport } = require("./report");
 
 exports.handler = async function (event, context) {
   const response = await getReport(event, context);
+
   if (response.statusCode !== 200) {
     await sendEmail("GC Report not 200");
     return response;
@@ -17,8 +18,6 @@ exports.handler = async function (event, context) {
   } catch (error) {
     await sendEmail("GC Report Upload Error");
   }
-
-  await sendEmail("GC Report generated");
 
   return {
     statusCode: 201,
