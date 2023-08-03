@@ -30,6 +30,21 @@ export function getEmptyReport() {
       },
     },
     {
+      port: "pedwest",
+      data: {
+        pedestrian: {
+          standard: {
+            time: "...",
+            lanes: "...",
+          },
+          readyLane: {
+            time: "...",
+            lanes: "...",
+          },
+        }
+      },
+    },
+    {
       port: "otay",
       data: {
         vehicle: {
@@ -123,6 +138,7 @@ export async function getReportFor(city) {
   if (city === "tijuana") {
     return [
       { port: "sanYsidro", data: report.sanYsidro },
+      { port: "pedWest", data: report.pedWest },
       { port: "otay", data: report.otay },
     ];
   }
