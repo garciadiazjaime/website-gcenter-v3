@@ -62,7 +62,7 @@ function transform(portId, data) {
   return response[0];
 }
 
-exports.handler = async function (event, context) {
+exports.handler = async function () {
   const url = 'https://bwt.cbp.gov/xml/bwt.xml';
   const data = await extract(url);
 
@@ -75,6 +75,9 @@ exports.handler = async function (event, context) {
       }, {
         id: '250601',
         name: 'otay',
+      }, {
+        id: '250407',
+        name: 'pedWest'
       }],
     },
     {
