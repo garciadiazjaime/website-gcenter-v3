@@ -22,7 +22,7 @@
       return "Línea de Otay";
     }
 
-    if (value === "pedwest") {
+    if (value === "pedWest") {
       return "Línea de Chaparral";
     }
 
