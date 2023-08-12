@@ -9,7 +9,7 @@
     printType,
     printTime,
     printLanes,
-	notifyReport,
+    notifyReport,
   } from "../support/report";
   let report = getEmptyReport();
 
@@ -22,7 +22,7 @@
       return "Línea de Otay";
     }
 
-    if (value?.toLowerCase() === "pedwest") {
+    if (value === "pedwest") {
       return "Línea de Chaparral";
     }
 
@@ -47,9 +47,9 @@
       });
     }
 
-	setTimeout(() => {
-		notifyReport()
-	}, 1000 * 10)
+    setTimeout(() => {
+      notifyReport();
+    }, 1000 * 10);
   });
 </script>
 
