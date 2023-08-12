@@ -90,7 +90,7 @@
   </ul>
   <div class="sponsored">
     <strong>Reporte Garitas {data[city].subtitle} patrocinado por</strong>
-    <a href="https://www.feedmetj.com/">Restaurantes en Tijuana</a> <br />
+    <a href="https://coupons.garitacenter.com/">Coupons Promo codes | Papa Johns</a> <br />
   </div>
 
   <div class="info">
