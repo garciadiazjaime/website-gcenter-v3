@@ -25,3 +25,7 @@
 ### Mint IT Media
 
 [Desarrollo Web en Tijuana](https://www.mintitmedia.com/)
+
+### Chicago Music Compass
+
+[Chicago Music Events](https://www.chicagomusiccompass.com/)
